@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+/* body {
+  margin: 20px auto;
+} */
+
+#nav #nav-ul {
+  width: 70vw;
+  height: 35px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 0px;
+  background-color: #282a35;
+}
+
+#nav #nav-ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.tasks {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 60px;
+  color: blueviolet;
+}
+
+h3 {
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 19px;
+  padding-bottom: 20px;
+}
+
+#button,
+#button1,
+#button2,
+#button3,
+#button4,
+#button5,
+#button6 {
+  padding: 15px 20px;
+  color: white;
+  font-size: 20px;
+  background-color: blueviolet;
+  border: none;
+  margin-inline: 0 auto;
+  border-radius: 17px;
+}
+
+#challenge {
+  margin-top: 15px;
+  border: 2px solid brown;
+}
+
+.challenge {
+  font-size: 80px;
+  color: aquamarine;
+}
+
+.prompt {
+  color: red;
+  font-size: 30px;
+}
+
+.cert-box {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 40vw;
+  height: 150px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.cert-box > h1 {
+  margin: 0 auto;
+}
+
+#shop {
+  display: block;
+  margin: 10px auto;
+  background-color: #04aa6d;
+  padding: 16px 30px;
+  font-size: 18px;
+  border-radius: 18px;
+  border: none;
+}
+
+.certified,
+.noticed {
+  color: #282a35;
+}
+
+.save {
+  color: #04aa6d;
+}
+
+#shop a {
+  color: white;
+  text-decoration: none;
+}
+
+.cart {
+  width: 30vw;
+  height: auto;
+  border: 1px solid grey;
+  float: right;
+  margin-right: 20px;
+}
+
+.cart-title {
+  text-align: center;
+}
+
+.cart > .cart-items {
+  border-bottom: 2px solid brown;
+  height: 30px;
+}
+
+.images {
+  /* width: 100vw; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+}
+
+.items-div {
+  /* width: 250px;
+  height: auto; */
+  margin-bottom: 40px;
+}
+
+.images-div img {
+  margin: 0 auto;
+  width: 190px;
+  height: 190px;
+  margin-bottom: 10px;
+}
+
+.buy-me {
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: cadetblue;
+  border-radius: 4px;
+}
