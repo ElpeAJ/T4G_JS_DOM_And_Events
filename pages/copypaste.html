@@ -3,38 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DOM</title>
-    <link rel="stylesheet" href="src/styles.css" />
+    <title>Functions in JS</title>
+    <link rel="stylesheet" href="../src/styles.css" />
   </head>
   <body>
-    <h1 class="heading">Document Object Model</h1>
+    <h1 class="heading">Functions in JS</h1>
     <div class="tasks">
       <h3>Task 1</h3>
-      <p>What is the Document Object Model (DOM)?</p>
+      <p>What are Functions and it's purpose in JS?</p>
       <a
-        href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model"
-        >JS MDN - DOM</a
+        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
+        >JS MDN</a
       >
       <h3>Task 2</h3>
       <p>
-        Access the "body" element with the document keyword
+        What is the syntax of a Function? (Function name, parameters,
+        statements/expressions)
       </p>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
+        >JS MDN</a
+      >
       <h3>Task 3</h3>
-      <p>Select and modify elements using the methods below:
-        <ul>
-          <li>⭐.querySelector()</li>
-          <li>⭐.getElementById()</li>
-          <li>⭐.getElementsByClassName() <span class="prompt">*</span></li>
-          <li>⭐.getElementsByTagName() <span class="prompt">*</span></li>
-        </ul>
-      </p>
+      <p>Write a function that checks if</p>
       <h3>Task 4</h3>
-      <p>Style an Element (body) <br>
-      For eg: document.body.style.backgroundColor = 'yellow'<br>
-      check out <button><a href="https://www.w3schools.com/jsref/dom_obj_style.asp" target="_blank" rel="noopener noreferrer">Style Object</a></button> to 
-      see the how the spelling of the styling properties differ when using JS</p>
+      <p></p>
       <h3>Task 5</h3>
-      
+      <button id="button">Click me!</button>
+      <button id="button1">Click!</button>
+      <button id="button2">Click me too!</button>
+      <button id="button3"><a href="learn.html">Check me out</a></button>
+      <button id="button4">Click👍🏾!</button>
+      <button id="button5">Click👋🏾</button>
+      <button id="button6">Click🥳</button>
       <div id="challenge">
         <h3 class="challenge"><u>Challenge</u></h3>
         <p>1. Store your name inside a variable and log it to the console</p>
@@ -73,8 +74,14 @@
       </div>
     </div>
     <script>
-      // document.body.style.backgroundColor = 'yellow';
+      let num = 30;
+      let str = "Hello";
+      let bool = true;
+
+      console.log(typeof num);
+      console.log(typeof str);
+      console.log(typeof bool);
     </script>
-    <script src="src/index.js"></script>
+    <script src="../src/index.js"></script>
   </body>
 </html>
