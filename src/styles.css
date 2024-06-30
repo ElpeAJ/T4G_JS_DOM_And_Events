@@ -63,16 +63,37 @@ p {
 #challenge {
   margin-top: 15px;
   border: 2px solid brown;
+  padding: 0 10px;
 }
 
 .challenge {
   font-size: 80px;
-  color: aquamarine;
+  color: blueviolet;
 }
 
 .prompt {
   color: red;
   font-size: 30px;
+}
+
+#challenge p button a{
+  text-decoration: none;
+  color: blueviolet;
+}
+
+#challenge p button {
+  border-radius: 19px;
+  border: 2px solid blueviolet;
+  padding: 10px;
+  background-color: #e1e1e1;
+}
+
+.objective{
+  line-height: 1.5;
+}
+
+.dommani{
+  width: 100%;
 }
 
 .cert-box {
