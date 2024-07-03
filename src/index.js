@@ -13,8 +13,8 @@ function redColor() {
   const redChange = document.querySelector("#button1");
   redChange.style.background = "red"; // Example: change text color to blue
 }
-const button = document.querySelector("#button");
-button.addEventListener("click", changeColor);
+// const button = document.querySelector("#button");
+// button.addEventListener("click", changeColor);
 
 const button1 = document.querySelector("#button1");
 button1.addEventListener("mouseout", redColor);
